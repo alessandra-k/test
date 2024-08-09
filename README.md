@@ -13,12 +13,12 @@ To run this application, you need the following:
 If you do not already have Java installed on your computer, follow these steps:
 
 #### Windows:
-1. Visit the [Java SE Downloads page](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+1. Visit the [Java SE Downloads page (JDK 17 - LTS)](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html).
 2. Download the appropriate version for your operating system (Windows x64 Installer).
 3. Run the installer and follow the on-screen instructions to complete the installation.
 
 #### macOS:
-1. Visit the [Java SE Downloads page](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+1. Visit the [Java SE Downloads page (JDK 17 - LTS)](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html).
 2. Download the appropriate version for your operating system (macOS Installer).
 3. Open the `.dmg` file and follow the instructions to install Java.
 
@@ -31,7 +31,7 @@ After installation, verify that Java is correctly installed:
 
 1. Open a command prompt (Windows) or terminal (macOS/Linux).
 2. Type the following command:
-   java -version
+   `java -version`
 3.	You should see output indicating the installed version of Java. Ensure it is version 8 or later.
 
 ### 3.	Add Java to the PATH
@@ -45,11 +45,11 @@ After installation, verify that Java is correctly installed:
 
 #### On macOS/Linux:
 1.	Open a terminal.
-2.	Use a text editor to open your shell configuration file (like .bash_profile, .bashrc, .zshrc, or .profile): nano ~/.bash_profile
-3.	Add the following line to the file: export PATH=$PATH:/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin
+2.	Use a text editor to open your shell configuration file (like .bash_profile, .bashrc, .zshrc, or .profile): `nano ~/.bash_profile`
+3.	Add the following line to the file: `export PATH=$PATH:/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin`
 (Adjust the path according to your Java installation.)
 4.	Save the file and close the text editor.
-5.	Run the following command to apply the changes:  source ~/.bash_profile
+5.	Run the following command to apply the changes:  `source ~/.bash_profile`
 
 
 ### 4.	Run the Application
@@ -60,9 +60,9 @@ Obtain the Grading_System-0.0.1-SNAPSHOT-jar-with-dependencies.jar file from you
 #### 2.	Run the JAR File:
 - Open the command prompt or terminal.
 - Navigate to the directory where the JAR file is located using the cd command. For example:
-cd path\to\your\jar\directory
+`cd path\to\your\jar\directory`
 - Run the JAR file with the following command:
-java -jar Grading_System-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+`java -jar Grading_System-0.0.1-SNAPSHOT-jar-with-dependencies.jar`
 
 
 ### 5.	Usage
